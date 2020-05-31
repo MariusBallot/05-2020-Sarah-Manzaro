@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ComingSoon msg="Welcome to Your Vue.js App" />
+    <ComingSoon />
   </div>
 </template>
 
@@ -28,5 +28,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>
