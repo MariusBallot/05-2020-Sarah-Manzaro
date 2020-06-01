@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <ComingSoon />
+    <Background />
   </div>
 </template>
 
 <script>
 import ComingSoon from "./components/ComingSoon.vue";
+import Background from "./components/Background.vue";
 
 export default {
   name: "App",
   components: {
-    ComingSoon
+    ComingSoon,
+    Background
   }
 };
 </script>
@@ -29,6 +32,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  color: white;
 }
 
 h1, h2, h3 {
